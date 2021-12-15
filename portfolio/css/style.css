@@ -3,8 +3,11 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #333;
+  color: rgb(255, 255, 255);
+  background-color:rgba(48, 44, 44, 0.925);
 }
+
+font-family: 'Potta One', cursive;
 
 a {
   transition: opacity .3s;
@@ -194,6 +197,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  background-color: rgb(61, 57, 57);
 }
 
 .works-item {
@@ -618,4 +622,7 @@ li {
   .article {
     padding: 50px 0;
   }
+  .hukuhukuhover :hover {border-radius: 50%;}
+  .hukuhukuhover2 { transition: border-radius 0.2s;}
 }
+
