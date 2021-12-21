@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>transition  を使ったアニメーション</title>
+    <style type="text/css">
+      div {
+        width: 100px;
+        height: 100px;
+        padding: 1em;
+        margin: 2em 2em 2em;
+        background: #d40c7a;
+        color: #fff;
+        font-size: 45px;
+      }
+      .width { transition: width 0.1s ease-out;}
+      .width:hover { width: 300px;}
+
+      .circle { transition: border-radius 0.2s;}
+      .circle:hover {border-radius: 100%;}
+
+      .scale {transition: transform 0.1s ease-in-out 1s;}
+      .scale:hover {transform: scale(1.5);}
+
+    </style>                                                                                                                                                                                                                                                       
+  </head>
+  <body>
+    <h1>ホバーアニメーション</h1>
+    <p> 下の３つの要素をホバーしてみよう！</p>
+
+    <div class="width">右に伸びる</div>
+    <div class="circle">四角から丸に</div>
+    <div class="scale">ホバーして1秒後にズームアップ</div>
+  </body>
+</html>
