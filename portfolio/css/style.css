@@ -631,7 +631,18 @@ li {
   .hukuhukuhover2 { transition: border-radius 0.2s;}
 }
 
-.hebi {
+k {
+  float: left;
   width: 300px;
   height: auto;
+}
+.hebi {
+display: inline-block; /* ここがポイント */
+height: 300px;
+margin-left: 600px;
+margin-bottom: 0px;
+}
+.hebi img {
+height: 100%;
+width: 100%;
 }
