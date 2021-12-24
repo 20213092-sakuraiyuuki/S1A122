@@ -60,6 +60,10 @@ li {
 /*--------------------------------
  見出し
 ---------------------------------*/
+.boku {
+  color: red;
+}
+
 .title {
   font-size: 34px;
   font-weight: bold;
@@ -188,6 +192,7 @@ li {
 }
 .main-visual-text {
   flex: 1;
+  font-size: 20px;
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
@@ -646,3 +651,9 @@ margin-bottom: 0px;
 height: 100%;
 width: 100%;
 }
+
+span {
+  font-size: 55px;
+  color: rgb(218, 0, 0);
+}
+

@@ -1,3 +1,52 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
+
 .midasi {
+    font-style: oblique;
     font-size: 50px;
+    color: blanchedalmond;
+}
+
+.slider_fade {
+    position: relative;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.slider_fade > li {
+    position: absolute;
+    list-style: none;
+    visibility: hidden;
+    animation: anime_slider_fade 24s 0s infinite;
+}
+.slider_fade > li:nth-of-type(2) {
+    animation-delay:4s;
+}
+.slider_fade > li:nth-of-type(3) {
+    animation-delay: 8s;
+}
+.slider_fade > li:nth-of-type(4) {
+    animation-delay: 12s;
+}
+@keyframes anime_slider_fade {
+    0% {
+        visibility: visible;
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+    }
+    48.3% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
