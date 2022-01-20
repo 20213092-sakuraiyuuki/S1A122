@@ -23,9 +23,10 @@ img {
   border-style: none;
 }
 
-ul,
+ul.
 li {
   list-style: none;
+  display: flex;
 }
 
 .pc-only {
@@ -644,8 +645,9 @@ k {
 .hebi {
 display: inline-block; /* ここがポイント */
 height: 300px;
-margin-left: 600px;
-margin-bottom: 0px;
+width: auto;
+display: flex;
+justify-content: center;
 }
 .hebi img {
 height: 100%;
@@ -657,3 +659,6 @@ span {
   color: rgb(218, 0, 0);
 }
 
+.yokonarabi{
+  display: flex;
+}
