@@ -32,6 +32,21 @@ img {
 .slider_fade > li:nth-of-type(4) {
     animation-delay: 12s;
 }
+.slider_fade > li:nth-of-type(5) {
+    animation-delay: 16s;
+}
+.slider_fade > li:nth-of-type(6) {
+    animation-delay: 20s;
+}
+.slider_fade > li:nth-of-type(7) {
+    animation-delay: 24s;
+}
+.slider_fade > li:nth-of-type(8) {
+    animation-delay: 28s;
+}
+.slider_fade > li:nth-of-type(9) {
+    animation-delay: 32s;
+}
 @keyframes anime_slider_fade {
     0% {
         visibility: visible;
