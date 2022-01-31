@@ -366,7 +366,7 @@ li {
 }
 
 .skill-img {
-  width: 150px;
+  width: 200px;
   height: auto;
   margin: 20px;
 }
@@ -490,8 +490,6 @@ li {
 .home-link {
   text-align: center;
 }
-
-.hukuhukuhover :hover {transition: 0.5s;}
 
 /*media Queries 767
 ----------------------------------------------------*/
@@ -667,4 +665,10 @@ span {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+
+.skill-img hukuhuku {
+  width: 300px;
+  height: auto;
+  margin: 20px;
 }
