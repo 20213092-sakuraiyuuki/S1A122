@@ -12,11 +12,6 @@ body {
     position: relative;
 }
 
-img {
-    width: 50%;
-    height: auto;
-}
-
 .slider_fade > li {
     position: absolute;
     list-style: none;
@@ -64,4 +59,9 @@ img {
     100% {
         opacity: 0;
     }
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
